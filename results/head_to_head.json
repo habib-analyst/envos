@@ -1,0 +1,169 @@
+{
+ "G2a_certification": {
+  "broken": {
+   "disclosure_mismatch": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "double_fire": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "irrelevant_mutation": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "missing_mutation_record": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "never_fires": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "no_prior_serve": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "scorer_corrupt": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   },
+   "unsolvable": {
+    "admitted": 0,
+    "reject_rate": 1.0,
+    "rejected": 20
+   }
+  },
+  "broken_reject_rate_overall": 1.0,
+  "valid": {
+   "clinic": {
+    "accept_rate": 1.0,
+    "admitted": 120,
+    "rejected": 0
+   },
+   "insurance": {
+    "accept_rate": 1.0,
+    "admitted": 120,
+    "rejected": 0
+   }
+  }
+ },
+ "G2b_arm_ordering": {
+  "clinic": {
+   "ci_cue_minus_off": [
+    0.355,
+    0.29,
+    0.42
+   ],
+   "ci_live_minus_cue": [
+    0.645,
+    0.58,
+    0.71
+   ],
+   "n": 200,
+   "rates": {
+    "CUE": 0.355,
+    "LIVE": 1.0,
+    "OFF": 0.0
+   }
+  },
+  "insurance": {
+   "ci_cue_minus_off": [
+    0.335,
+    0.27,
+    0.4
+   ],
+   "ci_live_minus_cue": [
+    0.665,
+    0.6,
+    0.73
+   ],
+   "n": 200,
+   "rates": {
+    "CUE": 0.335,
+    "LIVE": 1.0,
+    "OFF": 0.0
+   }
+  },
+  "pooled": {
+   "ci_cue_minus_off": [
+    0.345,
+    0.2975,
+    0.3925
+   ],
+   "ci_live_minus_cue": [
+    0.655,
+    0.6075,
+    0.7025
+   ],
+   "n": 400,
+   "rates": {
+    "CUE": 0.345,
+    "LIVE": 1.0,
+    "OFF": 0.0
+   }
+  }
+ },
+ "G3_attribution": {
+  "agent": {
+   "n": 50,
+   "naive_correct": 50,
+   "naive_rate": 1.0,
+   "pipeline_correct": 50,
+   "pipeline_rate": 1.0
+  },
+  "disclosure": {
+   "n": 50,
+   "naive_correct": 0,
+   "naive_rate": 0.0,
+   "pipeline_correct": 50,
+   "pipeline_rate": 1.0
+  },
+  "grader": {
+   "n": 50,
+   "naive_correct": 0,
+   "naive_rate": 0.0,
+   "pipeline_correct": 50,
+   "pipeline_rate": 1.0
+  },
+  "mutation": {
+   "n": 50,
+   "naive_correct": 0,
+   "naive_rate": 0.0,
+   "pipeline_correct": 50,
+   "pipeline_rate": 1.0
+  },
+  "pooled": {
+   "n": 200,
+   "naive_rate": 0.25,
+   "pipeline_rate": 1.0
+  }
+ },
+ "G3_benign": {
+  "clean_episodes": 150,
+  "match_rate": 1.0,
+  "reconstruction_match": 150,
+  "valid_reject_rate_pooled": 0.0
+ },
+ "prereg_bars": {
+  "ALL_PASS": true,
+  "G2a_broken_per_class_ge_80": true,
+  "G2a_broken_reject_ge_90": true,
+  "G2a_valid_accept_ge_95": true,
+  "G2b_ci_cue_minus_off_gt_0": true,
+  "G2b_ci_live_minus_cue_gt_0": true,
+  "G3_naive_le_50": true,
+  "G3_pipeline_attrib_ge_90": true,
+  "G3_pipeline_per_class_ge_80": true,
+  "G3_reconstruction_match_ge_98": true,
+  "G3_valid_reject_le_5": true
+ }
+}

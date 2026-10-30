@@ -1,0 +1,133 @@
+{
+ "arms": {
+  "clinic": {
+   "n": 24,
+   "rates": {
+    "CUE": 0.4166666666666667,
+    "LIVE": 1.0,
+    "OFF": 0.0
+   },
+   "successes": {
+    "CUE": 10,
+    "LIVE": 24,
+    "OFF": 0
+   }
+  },
+  "insurance": {
+   "n": 24,
+   "rates": {
+    "CUE": 0.375,
+    "LIVE": 1.0,
+    "OFF": 0.0
+   },
+   "successes": {
+    "CUE": 9,
+    "LIVE": 24,
+    "OFF": 0
+   }
+  }
+ },
+ "broken": {
+  "disclosure_mismatch": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "double_fire": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "irrelevant_mutation": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "missing_mutation_record": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "never_fires": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "no_prior_serve": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "scorer_corrupt": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  },
+  "unsolvable": {
+   "clinic": {
+    "admitted": 0,
+    "rejected": 4
+   },
+   "insurance": {
+    "admitted": 0,
+    "rejected": 4
+   }
+  }
+ },
+ "unassessable": {
+  "certify_verdict": "REJECT",
+  "check_statuses": {
+   "discrimination": "pass",
+   "feasibility": "pass",
+   "intervention_validity": "unassessable",
+   "observation_consistency": "pass",
+   "scorer_robustness": "pass"
+  },
+  "reconstruct_attribution": "unassessable"
+ },
+ "valid": {
+  "clinic": {
+   "admitted": 24,
+   "rejected": 0
+  },
+  "insurance": {
+   "admitted": 24,
+   "rejected": 0
+  }
+ }
+}
